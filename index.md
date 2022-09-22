@@ -1,7 +1,9 @@
 ---
-title: Set a Variable rather than expect a value 
+title: b&w blogs
 ---
 author: manva
 ---
-description: Just an experiment 
+description: Just an experiment
+---
+date: 2022-09-21
 ---
