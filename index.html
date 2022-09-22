@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Black & White Commercials </title>
+        <link rel ="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <div class="hero">
+            <nav>
+                <img src="images/menu.png "class="menu-img">
+                <img src="images/logo.png "class="logo-img">
+                <ul>
+                    <li><a href="/latest.html">Latest</a></li>
+                    <li><a href="/mordern.html">Mordern</a></li>
+                    <li><a href="/contemrary.html">Contemrary</a></li>
+                    <li><a href="/affordable.html">Affordable</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+                <button type="button" onclick="toggleBtn()" id="btn"><span></span> </button>
+            </nav>
+
+
+            <div class="lamp-container">
+                <img src="images/lamp.png" class="lamp">
+                <img src="images/light.png" class="light" id="light">
+            </div>
+            <div class="text-container">
+                <h1> Latest<br> in Fashion</h1>
+                <p> This is first Collection from Our Company . we're Collection of mordern fashion in all categories. </p>
+                <button type="button" href="">Collections</button>
+                <div class="control">
+                    <p>04</p>
+                    <div class="line"> <span></span></div>
+
+                        <p>05</p>
+                    
+                </div>
+            </div>
+        </div>
+<script>
+
+var btn =document.getElementById("btn");
+var light =document.getElementById("light");
+
+
+function toggleBtn(){
+
+    btn.classList.toggle("active");
+    light.classList.toggle("on");
+}
+
+</script>
+    </body>
+</html>
