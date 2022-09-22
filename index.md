@@ -1,5 +1,5 @@
 ---
-title: b&w blogs
+title: "b&w blogs"
 ---
 author: manva
 ---
